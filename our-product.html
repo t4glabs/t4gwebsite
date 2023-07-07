@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+  content="Improving the livelihoods of tribal farmers in the Bastar region by reducing post-harvest losses and providing high-quality, unadulterated, processed forest produce to urban consumers at a fair price." />
+
+  <link href="output.css" rel="stylesheet">
+
+  <title>Forest Naturals</title>
+  <link rel="icon" type="image/x-icon" href="public/Img/baster.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+
+
+
+
+<body class="font-family-class body-color-website font-sans leading-normal tracking-normal font-serif ">
+
+
+
+  <!-- Header section start -->
+
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+
+  <div class="w-full text-gray-300 bg-white drop-shadow-md font-family-class">
+    <div x-data="{ open: false }"
+      class="p-2 flex flex-col max-w-screen-xl mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
+      <div class="flex flex-row items-center justify-between">
+        <a href="index.html">
+          <img src="public/Img/LOGO_ FOREST NATURALS.png" alt="logo" class="logo-size">
+        </a>
+
+        <button class="md:hidden rounded-lg focus:outline-none focus:shadow-outline" @click="open = !open">
+          <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6 text-emerald-700">
+            <path x-show="!open" fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+              clip-rule="evenodd"></path>
+            <path x-show="open" fill-rule="evenodd"
+              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </button>
+      </div>
+      <nav :class="{'flex': open, 'hidden': !open}"
+        class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-end md:flex-row">
+        <a class="px-4 py-2 mt-2 text-base  text-black rounded-lg  md:mt-0   hover:text-green-700 focus:outline-none focus:shadow-outline"
+          href="index.html">Home</a>
+
+
+
+        <a class="text-black px-4 py-2 mt-2 text-base  bg-transparent rounded-lg   hover:text-green-700   md:mt-0 md:ml-4  focus:outline-none focus:shadow-outline"
+          href="about-us.html">About Us</a>
+        <a class="text-black px-4 py-2 mt-2 text-base  bg-transparent rounded-lg   hover:text-green-700   md:mt-0 md:ml-4  focus:outline-none focus:shadow-outline"
+          href="our-work.html">Our Work</a>
+        <a class="text-black px-4 py-2 mt-2 text-base  bg-transparent rounded-lg   hover:text-green-700   md:mt-0 md:ml-4  focus:outline-none focus:shadow-outline"
+          href="team.html">Team</a>
+        <a class="text-black px-4 py-2 mt-2 text-base  bg-transparent rounded-lg   hover:text-green-700    md:mt-0 md:ml-4  focus:outline-none focus:shadow-outline"
+          href="our-product.html">Our Products</a>
+      </nav>
+    </div>
+  </div>
+
+  <p class="size-line bg-green-700"></p>
+    <!-- Header section end -->
+
+
+
+    <!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+-->
+    <div class="bg-gray-100">
+
+        <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-16 lg:max-w-7xl lg:px-12">
+
+            <div class="lg:px-16">
+                <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl text-center">Our Products
+                </h2>
+
+                <p class="text-center text-4xl font-bold tracking-tight text-emerald-700 sm:text-4xl">⎯
+                </p>
+                <p class="text-gray-700 p-4 mb-4 text-lg text-start">At Forest Naturals, we offer a diverse range of
+                    products, each one a
+                    tribute to the rich bounty of the forests of Chhattisgarh. Our selection includes:</p>
+                <!-- 1111111111 -->
+            </div>
+
+
+            <div class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
+
+                <!-- 111111 -->
+                <div class="flex flex-col gap-8 bg-white p-4 shadow-lg hover:shadow-2xl">
+
+                    <div class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg ">
+                        <img src="public/product-img/CUSTARD APPLE FRUIT.jpg" alt="Custard Apple Pulp and Slice"
+                            class="object-cover object-center product-img-size ">
+                    </div>
+                    <div>
+                        <h2 class="3xl text-2xl font-bold tracking-tight text-emerald-700">Custard Apple Pulp and Slice
+                        </h2>
+                        <p class="mt-4 text-gray-700">A Enjoy the sweet, creamy taste of custard apple, conveniently
+                            packaged for your enjoyment.
+                        </p>
+                    </div>
+
+                </div>
+                <!-- ************ -->
+                <div class="flex flex-col gap-8 bg-white p-4 shadow-lg hover:shadow-2xl">
+                    <div class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg ">
+                        <img src="public/product-img/Kala Jamun.jpg" alt="Jamun Pulp and Slice"
+                            class="object-cover object-center product-img-size">
+                    </div>
+
+                    <div>
+                        <h2 class="3xl text-2xl font-bold tracking-tight text-emerald-700">Jamun Pulp and Slice
+                        </h2>
+                        <p class="mt-4 text-gray-700">Experience the tangy flavour of Jamun, a fruit known for its
+                            health benefits.
+
+                        </p>
+                    </div>
+                </div>
+                <!-- *************** -->
+                <div class="flex flex-col gap-8 bg-white p-4 shadow-lg hover:shadow-2xl">
+
+                    <div class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg ">
+                        <img src="public/product-img/MANGO CUBE.jpg" alt="Mango Pulp and Slice"
+                            class="object-cover object-center product-img-size">
+                    </div>
+                    <div>
+                        <h2 class="3xl text-2xl font-bold tracking-tight text-emerald-700">Mango Pulp and Slice
+                        </h2>
+                        <p class="mt-4 text-gray-700">Savour the king of fruits in its purest form, free from any
+                            additives.
+
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- *************** -->
+
+                <div class="flex flex-col gap-8 bg-white p-4 shadow-lg hover:shadow-2xl">
+                    <div class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg ">
+                        <img src="public/product-img/Tamarind Cake.jpg" alt="Tamarind Pulp and Cake"
+                            class="object-cover object-center product-img-size">
+                    </div>
+                    <div>
+                        <h2 class="3xl text-2xl font-bold tracking-tight text-emerald-700">Tamarind Pulp and Cake
+                        </h2>
+                        <p class="mt-4 text-gray-700">Relish the unique, sour-sweet taste of tamarind, a staple in many
+                            Indian dishes.
+                        </p>
+                    </div>
+                </div>
+
+
+                <!-- *************** -->
+                <div class="flex flex-col gap-8 bg-white p-4 shadow-lg hover:shadow-2xl">
+
+                    <div class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg ">
+                        <img src="public/product-img/DRY AAMCHOOR.jpg" alt="Desi Mango Amchoor"
+                            class="object-cover object-center product-img-size">
+                    </div>
+                    <div>
+                        <h2 class="3xl text-2xl font-bold tracking-tight text-emerald-700">Desi Mango Amchoor
+                        </h2>
+                        <p class="mt-4 text-gray-700">Add a tangy twist to your meals with our Deshi Mango Amchoor.
+
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- *************** -->
+                <div class="flex flex-col gap-8 bg-white p-4 shadow-lg hover:shadow-2xl">
+                    <div class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg ">
+                        <img src="data:image/jpeg;base64,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"
+                            alt="Yellow Papaya Cubes" class="object-cover object-center product-img-size">
+                    </div>
+
+                    <div>
+                        <h2 class="3xl text-2xl font-bold tracking-tight text-emerald-700">Yellow Papaya Cubes
+                        </h2>
+                        <p class="mt-4 text-gray-700">Enjoy the tropical sweetness of papaya, packed with nutrients.
+                        </p>
+                    </div>
+                </div>
+
+
+
+                <!-- *************** -->
+                <div class="flex flex-col gap-8 bg-white p-4 shadow-lg hover:shadow-2xl">
+
+                    <div class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg ">
+                        <img src="public/product-img/CUSTARD APPLE FRUIT.jpg" alt="Custard Apple Seed, Tamarind Seed,
+                        and Jamun Seed Powder" class="object-cover object-center product-img-size">
+                    </div>
+
+                    <div>
+                        <h2 class="3xl text-2xl font-bold tracking-tight text-emerald-700">Custard Apple Seed, Tamarind
+                            Seed,
+                            and Jamun Seed Powder
+                        </h2>
+                        <p class="mt-4 text-gray-700">Harness the health benefits of these seeds, ground into a
+                            convenient powder.
+
+                        </p>
+                    </div>
+
+                </div>
+
+
+
+                <!-- *************** -->
+                <div class="flex flex-col gap-8 bg-white p-4 shadow-lg hover:shadow-2xl">
+                    <div class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg ">
+                        <img src="data:image/jpeg;base64,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"
+                            alt="Triphala Powder" class="object-cover object-center product-img-size">
+                    </div>
+                    <div>
+                        <h2 class="3xl text-2xl font-bold tracking-tight text-emerald-700">Triphala Powder
+                        </h2>
+                        <p class="mt-4 text-gray-700">Benefit from the potent combination of three medicinal fruits,
+                            known for their healing properties.
+
+                        </p>
+                    </div>
+                </div>
+
+
+
+                <!-- *************** -->
+                <div class="flex flex-col gap-8 bg-white p-4 shadow-lg hover:shadow-2xl">
+                    <div class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg ">
+                        <img src="public/product-img/Kasturi Methi.jpg" alt="Kasturi Methi"
+                            class="object-cover object-center product-img-size">
+                    </div>
+
+                    <div>
+                        <h2 class="3xl text-2xl font-bold tracking-tight text-emerald-700">Kasturi Methi
+                        </h2>
+                        <p class="mt-4 text-gray-700">(Used dummy content) -----Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                            incidunt ullam eius beatae provident id?
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class=" text-gray-200 p-4 pb-8 bg-gray-100">
+
+        <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-8 lg:max-w-6xl lg:px-12  bg-green-800  rounded-lg ">
+
+            <div class="lg:px-16">
+                <h2 class="text-4xl font-bold tracking-tight text-gray-200 sm:text-5xl text-center">Product
+                    Specialties</h2>
+                <p class="text-center text-white text-4xl font-bold tracking-tight text-emerald-700 sm:text-4xl">⎯
+                </p>
+                <p class="text-gray-200 p-2 mb-4 text-2xl text-start">Our products stand out for their purity and
+                    quality. Here's
+                    what makes them special:
+                </p>
+
+                <ul class="p-4" style="list-style-type: square;">
+
+                    <li class="lg:text-lg mb-2"> <strong class="font-bold"> No Chemicals:-</strong> We believe in the
+                        power
+                        of nature and refrain from using any chemicals in our products.</li>
+                    <li class="lg:text-lg mb-2"><strong class="font-bold">No Synthetic Colours:- </strong> Our products
+                        retain their natural colours, free from any artificial dyes.</li>
+                    <li class="lg:text-lg mb-2"><strong class="font-bold">No Artificial Flavors:- </strong>The flavours
+                        in
+                        our products are all-natural, derived from the fruits themselves.
+                    </li>
+                    <li class="lg:text-lg mb-2"><strong class="font-bold"> No Adulteration:-</strong>We guarantee the
+                        purity
+                        of our products, with no adulteration.
+                    </li>
+                    <li class="lg:text-lg mb-2"><strong class="font-bold">Natural and Pure from Forest:- </strong>Our
+                        products are sourced directly from the forests, ensuring their freshness and authenticity.</li>
+                    <li class="lg:text-lg mb-2"><strong class="font-bold"> Healthy and Tasty: -</strong>We don't
+                        compromise
+                        on taste for health. Our products are as delicious as they are nutritious.
+                    </li>
+                    <li class="lg:text-lg mb-2"><strong class="font-bold">Do More with Less: - </strong>Our products are
+                        versatile, allowing you to create a variety of dishes with just a few ingredients.
+                    </li>
+                    <li class="lg:text-lg"><strong class="font-bold">Shelf Life up to 24 Months:- </strong> Properly
+                        stored, our products can last up to 24 months, allowing you to enjoy them at your leisure.
+                    </li>
+
+
+
+                </ul>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- footer  -->
+
+    <footer class="footer-back-color " aria-labelledby="footer-heading">
+      <h2 id="footer-heading" class="sr-only">Footer</h2>
+      <div class="mx-auto max-w-7xl sm:pt-4 lg:px-6pt-2 lg:pt-8">
+        <div class="lg:p-6 ">
+  
+          <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-12 lg:px-8 md:px-12 mt-8 p-6">
+  
+            <!-- 1111 -->
+            <div class="mt-2 xl:mt-0 max-w-xl">
+              <h3 class="text-base font-bold leading-6 text-gray-300">Get Involved
+              </h3>
+              <p class="mt-2 text-baseleading-6 text-gray-400 font-family-class font-size-width text-sm">Join us in our
+                mission to
+                enhance the livelihoods of tribal farmers. There are several ways you can get involved, from volunteering
+                and internships to donations and partnerships. Contact us to learn more.</p>
+  
+              <p class="mt-4"><a href="Privacy-Policy.html" 
+                  class="text-emerald-700  hover:text-emerald-400 hover:underline">Privacy Policy</a></p>
+              <p class=""> <a href="Terms-of-Use.html" class="text-emerald-700  hover:text-emerald-400 hover:underline">
+                  Terms of
+                  Use</a>
+              </p>
+            </div>
+  
+            <!-- 22222 -->
+            <div class="mt-2 xl:mt-0">
+              <h3 class="text-base font-bold leading-6 text-gray-300 ">Registered office: </h3>
+              <h3 class="text-base font-bold leading-6 text-gray-300">Bastar Se Bazaar Tak Private Limited </h3>
+  
+  
+              <p class="mt-2 text-baseleading-6 text-gray-400 font-family-class text-sm">
+                #150, Haresh Kumar Kashyap Colony Lane, Village Lakhanpuri, Uttar Bastar, Chhattisgarh 494336
+              </p>
+  
+  
+  
+            </div>
+  
+            <!-- 3333 -->
+            <div class="mt-2 xl:mt-0">
+              <h3 class="text-base font-bold leading-6 text-gray-300 ">Contact </h3>
+  
+              <p class="mt-2 text-baseleading-6 text-gray-400 font-family-class text-sm">Email: bastar44@outlook.com</p>
+              <p class="mt-2 text-baseleading-6 text-gray-400 font-family-class text-sm"> Mobile: +91 9604444496
+              </p>
+              <p class="mt-2 text-baseleading-6 text-gray-400 font-family-class text-sm"> 90097480687
+              </p>
+              <!-- <a href=" " class="text-gray-400 hover:text-emerald-700">
+                <span class="sr-only">Facebook</span>
+                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path fill-rule="evenodd"
+                    d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                    clip-rule="evenodd" />
+                </svg>
+              </a> -->
+  
+            </div>
+          </div>
+        </div>
+  
+  
+      </div>
+      <div
+        class="p-2 border-t border-white/20 pt-8 sm:mt-4 md:flex md:items-center md:justify-between lg:mt-2 items-center flex-col">
+        <p class=" text-sm leading-5  md:order-1 md:mt-0 text-gray-200 font-family-class font-bold mb-2">
+  
+          © 2023 Forest Naturals. All rights reserved
+  
+        </p>
+  
+        <p class="text-sm leading-5  md:order-1 md:mt-0 text-gray-200 font-family-class font-bold mb-">
+          built with 💚 by <a
+            href="https://t4glabs.discourse.group/u?cards=no&group=Tech4Good-Fellows&order=likes_received&period=all"
+            target="_blank" class="text-green-700  hover:text-emerald-400 hover:underline">Tech4Good Fellows</a> &
+          Hosted Freely on <a href="https://t4glabs.github.io/bastar-se-bazaar/"
+            class="text-green-700  hover:text-emerald-400 hover:underline">Github Pages</a>
+          </a>
+        </p>
+  
+      </div>
+  
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>

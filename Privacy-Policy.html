@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Forest Naturals powered by Bastar Se Bazaar Tak
+        Private
+        Limited, on a mission to uplift the lives of tribal farmers in India's most densely forested state,
+        Chhattisgarh. We are the champions of the 'Everyman,' the tribal farmers who are the backbone of our society,
+        yet often face struggles and challenges that go unnoticed." />
+
+  <link href="output.css" rel="stylesheet">
+
+  <title>Forest Naturals</title>
+  <link rel="icon" type="image/x-icon" href="public/Img/baster.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+
+
+
+
+<body class="font-family-class body-color-website font-sans leading-normal tracking-normal font-serif ">
+
+
+
+  <!-- Header section start -->
+
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+
+  <div class="w-full text-gray-300 bg-white drop-shadow-md font-family-class">
+    <div x-data="{ open: false }"
+      class="p-2 flex flex-col max-w-screen-xl mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
+      <div class="flex flex-row items-center justify-between">
+        <a href="index.html">
+          <img src="public/Img/LOGO_ FOREST NATURALS.png" alt="logo" class="logo-size">
+        </a>
+
+        <button class="md:hidden rounded-lg focus:outline-none focus:shadow-outline" @click="open = !open">
+          <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6 text-emerald-700">
+            <path x-show="!open" fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+              clip-rule="evenodd"></path>
+            <path x-show="open" fill-rule="evenodd"
+              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </button>
+      </div>
+      <nav :class="{'flex': open, 'hidden': !open}"
+        class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-end md:flex-row">
+        <a class="px-4 py-2 mt-2 text-base  text-black rounded-lg  md:mt-0   hover:text-green-700 focus:outline-none focus:shadow-outline"
+          href="index.html">Home</a>
+
+
+
+        <a class="text-black px-4 py-2 mt-2 text-base  bg-transparent rounded-lg   hover:text-green-700   md:mt-0 md:ml-4  focus:outline-none focus:shadow-outline"
+          href="about-us.html">About Us</a>
+        <a class="text-black px-4 py-2 mt-2 text-base  bg-transparent rounded-lg   hover:text-green-700   md:mt-0 md:ml-4  focus:outline-none focus:shadow-outline"
+          href="our-work.html">Our Work</a>
+        <a class="text-black px-4 py-2 mt-2 text-base  bg-transparent rounded-lg   hover:text-green-700   md:mt-0 md:ml-4  focus:outline-none focus:shadow-outline"
+          href="team.html">Team</a>
+        <a class="text-black px-4 py-2 mt-2 text-base  bg-transparent rounded-lg   hover:text-green-700    md:mt-0 md:ml-4  focus:outline-none focus:shadow-outline"
+          href="our-product.html">Our Products</a>
+      </nav>
+    </div>
+  </div>
+
+  <p class="size-line bg-green-700"></p>
+
+    <!-- Header section end -->
+
+
+
+
+    <!-- hero Section  -->
+
+    <div class="bg-white py-20 md:py-32 lg:py-16 flex flex-col items-center">
+        <div class="mx-auto max-w-5xl lg:mx-0 text-center mb-8 ">
+            <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Privacy Policy</h2>
+            <p class=" text-4xl font-bold tracking-tight text-emerald-700 sm:text-4xl text-center">⎯
+            </p>
+            <p class="text-base leading-8 text-gray-700 p-4 text-start">At Forest Naturals, we respect your privacy and are committed
+                to protecting it. We only collect personal information necessary for us to provide you with our
+                services. This information is stored securely and is not shared with third parties without your consent,
+                except as required by law. We use cookies to enhance your experience on our website, but you can choose
+                to disable them in your browser settings. By using our website, you consent to our use of cookies in
+                accordance with our privacy policy.
+            </p>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    <!-- footer  -->
+
+    <footer class="footer-back-color " aria-labelledby="footer-heading">
+      <h2 id="footer-heading" class="sr-only">Footer</h2>
+      <div class="mx-auto max-w-7xl sm:pt-4 lg:px-6pt-2 lg:pt-8">
+        <div class="lg:p-6 ">
+  
+          <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-12 lg:px-8 md:px-12 mt-8 p-6">
+  
+            <!-- 1111 -->
+            <div class="mt-2 xl:mt-0 max-w-xl">
+              <h3 class="text-base font-bold leading-6 text-gray-300">Get Involved
+              </h3>
+              <p class="mt-2 text-baseleading-6 text-gray-400 font-family-class font-size-width text-sm">Join us in our
+                mission to
+                enhance the livelihoods of tribal farmers. There are several ways you can get involved, from volunteering
+                and internships to donations and partnerships. Contact us to learn more.</p>
+  
+              <p class="mt-4"><a href="Privacy-Policy.html" target="_blank"
+                  class="text-emerald-700  hover:text-emerald-400 hover:underline">Privacy Policy</a></p>
+              <p class=""> <a href="Terms-of-Use.html" class="text-emerald-700  hover:text-emerald-400 hover:underline">
+                  Terms of
+                  Use</a>
+              </p>
+            </div>
+  
+            <!-- 22222 -->
+            <div class="mt-2 xl:mt-0">
+              <h3 class="text-base font-bold leading-6 text-gray-300 ">Registered office: </h3>
+              <h3 class="text-base font-bold leading-6 text-gray-300">Bastar Se Bazaar Tak Private Limited </h3>
+  
+  
+              <p class="mt-2 text-baseleading-6 text-gray-400 font-family-class text-sm">
+                #150, Haresh Kumar Kashyap Colony Lane, Village Lakhanpuri, Uttar Bastar, Chhattisgarh 494336
+              </p>
+  
+  
+  
+            </div>
+  
+            <!-- 3333 -->
+            <div class="mt-2 xl:mt-0">
+              <h3 class="text-base font-bold leading-6 text-gray-300 ">Contact </h3>
+  
+              <p class="mt-2 text-baseleading-6 text-gray-400 font-family-class text-sm">Email: bastar44@outlook.com</p>
+              <p class="mt-2 text-baseleading-6 text-gray-400 font-family-class text-sm"> Mobile: +91 9604444496
+              </p>
+              <p class="mt-2 text-baseleading-6 text-gray-400 font-family-class text-sm"> 90097480687
+              </p>
+              <!-- <a href=" " class="text-gray-400 hover:text-emerald-700">
+                <span class="sr-only">Facebook</span>
+                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path fill-rule="evenodd"
+                    d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                    clip-rule="evenodd" />
+                </svg>
+              </a> -->
+  
+            </div>
+          </div>
+        </div>
+  
+  
+      </div>
+      <div
+        class="p-2 border-t border-white/20 pt-8 sm:mt-4 md:flex md:items-center md:justify-between lg:mt-2 items-center flex-col">
+        <p class=" text-sm leading-5  md:order-1 md:mt-0 text-gray-200 font-family-class font-bold mb-2">
+  
+          © 2023 Forest Naturals. All rights reserved
+  
+        </p>
+  
+        <p class="text-sm leading-5  md:order-1 md:mt-0 text-gray-200 font-family-class font-bold mb-">
+          built with 💚 by <a
+            href="https://t4glabs.discourse.group/u?cards=no&group=Tech4Good-Fellows&order=likes_received&period=all"
+            target="_blank" class="text-green-700  hover:text-emerald-400 hover:underline">Tech4Good Fellows</a> &
+          Hosted Freely on <a href="https://t4glabs.github.io/bastar-se-bazaar/"
+            class="text-green-700  hover:text-emerald-400 hover:underline">Github Pages</a>
+          </a>
+        </p>
+  
+      </div>
+  
+    </footer>
+
+        <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+        <script src="index.js"></script>
+
+</body>
+
+</html>
