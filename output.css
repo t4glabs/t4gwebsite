@@ -555,10 +555,6 @@ video {
   margin-bottom: 2rem;
 }
 
-.mt-16 {
-  margin-top: 4rem;
-}
-
 .mt-4 {
   margin-top: 1rem;
 }
@@ -575,20 +571,12 @@ video {
   display: block;
 }
 
-.inline {
-  display: inline;
-}
-
 .flex {
   display: flex;
 }
 
 .grid {
   display: grid;
-}
-
-.hidden {
-  display: none;
 }
 
 .h-16 {
@@ -607,30 +595,6 @@ video {
   height: 2.25rem;
 }
 
-.h-1 {
-  height: 0.25rem;
-}
-
-.h-12 {
-  height: 3rem;
-}
-
-.h-10 {
-  height: 2.5rem;
-}
-
-.h-5 {
-  height: 1.25rem;
-}
-
-.h-7 {
-  height: 1.75rem;
-}
-
-.w-1\/3 {
-  width: 33.333333%;
-}
-
 .w-4\/5 {
   width: 80%;
 }
@@ -645,11 +609,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-min {
-  width: -moz-min-content;
-  width: min-content;
 }
 
 .max-w-2xl {
@@ -729,46 +688,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'public\/img\/hero-img\.jpeg\'\)\] {
-  background-image: url('public/img/hero-img.jpeg');
-}
-
-.bg-\[url\(\'public\/img\/\'\)\] {
-  background-image: url('public/img/');
-}
-
-.bg-\[url\(\'public\/img\/c\'\)\] {
-  background-image: url('public/img/c');
-}
-
-.bg-\[url\(\'public\/img\/cover\'\)\] {
-  background-image: url('public/img/cover');
-}
-
-.bg-\[url\(\'public\/img\/cover_\'\)\] {
-  background-image: url('public/img/cover_');
-}
-
-.bg-\[url\(\'public\/img\/cover_P\'\)\] {
-  background-image: url('public/img/cover_P');
-}
-
-.bg-\[url\(\'public\/img\/cover_PN\'\)\] {
-  background-image: url('public/img/cover_PN');
-}
-
-.bg-\[url\(\'public\/img\/cover_PNG\'\)\] {
-  background-image: url('public/img/cover_PNG');
-}
-
-.bg-\[url\(\'https\:\/\/do7js0tdxrds1\.cloudfront\.net\/6gcidpuzlau6x4bcay06qkdbwh5u\?response-content-disposition\=inline\%3B\+filename\%3D\%22cover_v1\.PNG\%22\%3B\&response-content-type\=image\%2Fpng\&Expires\=1688728608\&Signature\=YsyY97r9gjeDfUm6MPilXz2Nz-sRzLbdcTT\~3m3WYOTEwwen0HNq3ffQ\~jIEtsG\~j\~KMTF\~MSwzipBLJHfGkwUbQZKkY-pKjQQSeQx9nOPZJix21DVJ8VAZbPbPWxAG9p0XKhJ87oXLt2pXKkHI-TtRejdorj1vu3-e3Iuv4duFwaoxewKlEe9QUZHgMLECbwI9ZBCLSXtvhVYFebtAjU4WWEFRTKn6PAJ5pR1QT8gGo3X0kHN680AC9ynjVu9MhG4pVNbVaahZ7xe2RyMClvJpPg9kpJ9LxsR4\~C1hLRIaiGbQe4Hz4rkthouCNXyAieG9Zo10UzZEBvRxsoM8HSQ__\&Key-Pair-Id\=K2Q3HDJ6ZAQGFF\'\)\] {
-  background-image: url('https://do7js0tdxrds1.cloudfront.net/6gcidpuzlau6x4bcay06qkdbwh5u?response-content-disposition=inline%3B+filename%3D%22cover_v1.PNG%22%3B&response-content-type=image%2Fpng&Expires=1688728608&Signature=YsyY97r9gjeDfUm6MPilXz2Nz-sRzLbdcTT~3m3WYOTEwwen0HNq3ffQ~jIEtsG~j~KMTF~MSwzipBLJHfGkwUbQZKkY-pKjQQSeQx9nOPZJix21DVJ8VAZbPbPWxAG9p0XKhJ87oXLt2pXKkHI-TtRejdorj1vu3-e3Iuv4duFwaoxewKlEe9QUZHgMLECbwI9ZBCLSXtvhVYFebtAjU4WWEFRTKn6PAJ5pR1QT8gGo3X0kHN680AC9ynjVu9MhG4pVNbVaahZ7xe2RyMClvJpPg9kpJ9LxsR4~C1hLRIaiGbQe4Hz4rkthouCNXyAieG9Zo10UzZEBvRxsoM8HSQ__&Key-Pair-Id=K2Q3HDJ6ZAQGFF');
-}
-
-.bg-cover {
-  background-size: cover;
-}
-
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -776,6 +695,10 @@ video {
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-8 {
+  padding: 2rem;
 }
 
 .px-12 {
@@ -801,11 +724,6 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-
-.py-48 {
-  padding-top: 12rem;
-  padding-bottom: 12rem;
 }
 
 .py-8 {
@@ -834,6 +752,11 @@ video {
 .text-8xl {
   font-size: 6rem;
   line-height: 1;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .text-lg {
@@ -924,11 +847,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-red-800 {
-  --tw-text-opacity: 1;
-  color: rgb(153 27 27 / var(--tw-text-opacity));
-}
-
 .underline {
   text-decoration-line: underline;
 }
@@ -990,33 +908,23 @@ video {
     padding-right: 1.5rem;
   }
 
-  .sm\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
-  .sm\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .sm\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
   }
 
-  .sm\:text-6xl {
-    font-size: 3.75rem;
+  .sm\:text-5xl {
+    font-size: 3rem;
     line-height: 1;
   }
 
   .sm\:text-lg {
     font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 
@@ -1026,14 +934,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:block {
-    display: block;
-  }
-
-  .md\:w-2\/3 {
-    width: 66.666667%;
-  }
-
   .md\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
@@ -1054,10 +954,6 @@ video {
 
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .lg\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .lg\:items-center {

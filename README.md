@@ -1,12 +1,11 @@
 # bastar-se-bazaar
-Website for Bastar Se Bazaar Tak
+Website for T4gLabs (t4glabs.org)
 
 ## Development
 
-`git clone https://github.com/t4glabs/bastar-se-bazaar`
+`git clone https://github.com/t4glabs/t4gwebsite`
 
-`cd bastar-se-bazaar`
-
+`cd t4gwebsite
 `npm install`
 
 ## Build CSS
